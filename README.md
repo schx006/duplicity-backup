@@ -11,7 +11,7 @@ license: GNU General Public License v3.0
 * [_Duplicity_ on Debian Wiki](https://wiki.debian.org/Duplicity)
 * _gpg_ man page
 
-### HowTo
+### HowTo (install)
 
 If needed, create `/root/bin` directory with `drwx------` perms.   
 Load `backup.sh` and `duplicity.conf` files on VPS.
@@ -19,7 +19,7 @@ As 'root', run the commands² below:
 ``` sh
 apt-get update
 apt-get upgrade
-aptget install duplicity gpg python-pip
+aptget install python-pip gpg duplicity gpg
 
 pip install boto
 
