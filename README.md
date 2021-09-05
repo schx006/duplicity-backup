@@ -47,7 +47,7 @@ Run the bachup task:
 ```
 
 When everything is OK, you can schedule the `/root/bin/backup.sh` command with `crontab -e`.
-To backup the VPS every monday at 1:00 am, add the line:
+_ie._ to backup the VPS every monday at 1:00 am, add the line:
 ``` sh
 0 1 * * 1     /root/bin/backup.sh
 ```
