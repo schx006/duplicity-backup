@@ -32,14 +32,15 @@ gpg --gen-key
 
 ``` 
 
-Edit `/root/.duplicity.conf` with ad-hoc parameters…
+Edit `/root/.duplicity.conf` with _ad-hoc_ parameters…
 * S3 server name
 * S3 bucket name
 * IAM access key Id.
 * IAM secret key
 * GnuPG key signature or fingerprint (to identify wich to use)
 * GnuPG key passphrase (in clear text; if not present, the passphrase will be prompted, needed to schedule backup task)
-* set the list of directories to backup as required (Warning: do not try to backup `/proc` directory! Backup will crash.)
+* set the list of directories to backup as required (Warning: do not try to backup `/proc` directory! Backup will crash.
+If needed, add the `--exclude /proc` argument in the duplicity command line…)
 
 Run the bachup task:
 ``` sh
