@@ -7,9 +7,9 @@ license: GNU General Public License v3.0
 
 ### Docs
 
-* _Duplicity_ man page
+* Duplicity(1) man page
 * [_Duplicity_ on Debian Wiki](https://wiki.debian.org/Duplicity)
-* _gpg_ man page
+* gpg(1) man page
 
 ### HowTo (install)
 
@@ -19,13 +19,17 @@ As 'root', run the commands² below:
 ``` sh
 apt-get update
 apt-get upgrade
-aptget install python-pip gpg duplicity gpg
+aptget install python-pip gpg duplicity git
 
+# Module used by duplicity for S3 Object Storage connexion
 pip install boto
 
-cp /path/to/Downloads/backup.sh /root/bin/
+
+git clone https://github.com/schx006/duplicity-backup/blob/main/ /path/to/GitHubDirectory/
+
+cp /path/to/GitHubDirectory/schx006/duplicity-backup/backup.sh /root/bin/
 chmod 700 /root/bin/backup.sh
-cp /path/to/Downloads/.duplicity.conf /root/
+cp /path/to/GitHubDirectory/schx006/duplicity-backup/.duplicity.conf /root/
 chmod 600 /root/.duplicity.conf
 
 gpg --gen-key
