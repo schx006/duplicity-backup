@@ -29,7 +29,7 @@ git clone https://github.com/schx006/duplicity-backup/ /path/to/GitHubDirectory/
 
 cp /path/to/GitHubDirectory/schx006/duplicity-backup/backup.sh /root/bin/
 chmod 700 /root/bin/backup.sh
-cp /path/to/GitHubDirectory/schx006/duplicity-backup/.duplicity.conf /root/
+cp /path/to/GitHubDirectory/schx006/duplicity-backup/duplicity.conf /root/.duplicity.conf
 chmod 600 /root/.duplicity.conf
 
 gpg --gen-key
