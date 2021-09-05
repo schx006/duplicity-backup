@@ -1,4 +1,4 @@
-#!/usr/bin/env bash --utf8
+#!/usr/bin/env bash
 
 # Duplicity backup script-shell
 # Version 1.0
