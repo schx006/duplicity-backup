@@ -14,7 +14,7 @@ license: GNU General Public License v3.0
 ### HowTo (install)
 
 If needed, create `/root/bin` directory with `drwx------` perms.   
-Load `backup.sh` and `duplicity.conf` files on VPS.
+Load `backup.sh` and `.duplicity.conf` files on VPS.
 As 'root', run the commands² below:   
 ``` sh
 apt-get update
