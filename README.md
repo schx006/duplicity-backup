@@ -25,7 +25,7 @@ pip install boto
 
 cp /path/to/Downloads/backup.sh /root/bin/
 chmod 700 /root/bin/backup.sh
-cp /path/to/Downloads/duplicity.conf /root/.duplicity.conf
+cp /path/to/Downloads/.duplicity.conf /root/
 chmod 600 /root/.duplicity.conf
 
 gpg --gen-key
