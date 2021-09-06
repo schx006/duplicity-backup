@@ -27,9 +27,9 @@ pip install boto
 
 git clone https://github.com/schx006/duplicity-backup/ /path/to/GitHubDirectory/duplicity-backup
 
-cp /path/to/GitHubDirectory/schx006/duplicity-backup/backup.sh /root/bin/
+cp /path/to/GitHubDirectory/duplicity-backup/backup.sh /root/bin/
 chmod 700 /root/bin/backup.sh
-cp /path/to/GitHubDirectory/schx006/duplicity-backup/.duplicity.conf /root/
+cp /path/to/GitHubDirectory/duplicity-backup/.duplicity.conf /root/
 chmod 600 /root/.duplicity.conf
 
 gpg --gen-key
