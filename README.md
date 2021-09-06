@@ -25,16 +25,30 @@ aptget install python-pip gpg duplicity git
 pip install boto
 
 
-git clone https://github.com/schx006/duplicity-backup/ /path/to/GitHubDirectory/duplicity-backup
-
-cp /path/to/GitHubDirectory/schx006/duplicity-backup/backup.sh /root/bin/
-chmod 700 /root/bin/backup.sh
-cp /path/to/GitHubDirectory/schx006/duplicity-backup/duplicity.conf /root/.duplicity.conf
-chmod 600 /root/.duplicity.conf
-
 gpg --gen-key
 
+
+git clone https://github.com/schx006/duplicity-backup/ /path/to/GitHubDirectory/duplicity-backup
+cd /path/to/GitHubDirectory/duplicity-backup
+
+```
+
+#### By hand istallation
+
+``` sh
+cp backup.sh /root/bin/
+chmod 700 /root/bin/backup.sh
+cp duplicity.conf /root/.duplicity.conf
+chmod 600 /root/.duplicity.conf
+
 ``` 
+#### Alternative: installation with script 
+Useful if you install these backup scripts on many computers… 🙂
+
+``` sh
+./install.sh
+```
+#### Configuration
 
 Edit `/root/.duplicity.conf` with _ad-hoc_ parameters…
 * S3 server name
