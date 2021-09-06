@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Duplicity backup script-shell
-# Version 1.0
+# Version 1.1
 # "Full backup" only
 # File:    /root/bin/backup.sh
 # Author:  schx006@xs-net.io
