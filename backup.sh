@@ -15,6 +15,8 @@
 
 
 . /root/.duplicity.conf
+#. /root/.duplicity/backup.conf
+#. /root/.duplicity/duplicity.conf
 
 
 
