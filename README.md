@@ -60,6 +60,8 @@ Edit `/root/.duplicity.conf` with _ad-hoc_ parameters…
 * set the list of directories to backup as required (Warning: do not try to backup `/proc` directory! Backup will crash.
 If needed, add the `--exclude /proc` argument in the duplicity command line…)
 
+#### By the end…
+
 Run the bachup task:
 ``` sh
 /root/bin/backup.sh
