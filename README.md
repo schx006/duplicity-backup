@@ -56,6 +56,9 @@ _ie._ to backup the VPS every monday at 1:00 am, add the line:
 ``` sh
 0 1 * * 1     /root/bin/backup.sh
 ```
+**Comments:**    
+In this configuration, the script run only "full backup". Incremental backup is not used.   
+Then, the backup is not verified. It will coming soon with next releases…
 
 ---
 
