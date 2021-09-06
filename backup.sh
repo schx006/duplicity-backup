@@ -21,8 +21,9 @@
 # loop on directories
 echo -n "---- Starting the \"Full backup\" of $HOSTNAME ---- "; date
 for i in $DIRS2BACKUP ; do
-    echo -e "\n==>   Backup of directory $i"
-    $DUP_EXEC $DUP_PARAM $i $TARGET_URL$i
-    $DUP_CLEANUP $TARGET_URL$i
+	echo -e "\n==>   Backup of directory $i"
+	$DUP_EXEC $i $TARGET_URL$i
+#	$DUP_VERIF $TARGET_URL$i $i
+	$DUP_CLEANUP $TARGET_URL$i
 done
 echo -n "---- \"Full backup\" of $HOSTNAME complete ---- "; date
