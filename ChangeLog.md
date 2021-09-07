@@ -15,19 +15,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 If it is not specified (or ignored), Duplicity runs incremental backup,
 but forces a full backup if no full backup already exists.)
 
+### Removed
+
 ## [1.0.2] - 2021-09-06
-### Added
-
-### Changed
-
 ### Fixed
 - PATCH . Fixed small errors and added clarifications to the README.md file
 
 ## [1.0.1] - 2021-09-05
-### Added
-
-### Changed
-
 ### Fixed
 - MAJOR . Fix bug in the shebang
 (an unsupported encoding argument prevents the script from running)
@@ -40,7 +34,3 @@ first release
 - GnuPG signed and encrypted "full" backup of the directories of a VPS,
 defined in a list, to an S3 Object Storage server.
 - Removes backups older than 8 weeks (delay set up in the configuration file).
-
-### Changed
-
-### Fixed
