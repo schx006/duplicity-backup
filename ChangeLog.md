@@ -39,6 +39,7 @@ first release
 ### Added
 - GnuPG signed and encrypted "full" backup of the directories of a VPS,
 defined in a list, to an S3 Object Storage server.
+- Removes backups older than 8 weeks (delay set up in the configuration file).
 
 ### Changed
 
