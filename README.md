@@ -8,7 +8,7 @@ license: GNU General Public License v3.0
 ## Docs
 
 * Duplicity(1) man page
-* [Duplicity_ on Debian Wiki](https://wiki.debian.org/Duplicity)
+* [_Duplicity_ on Debian Wiki](https://wiki.debian.org/Duplicity)
 * gpg(1) man page
 
 ## Operating
@@ -27,6 +27,18 @@ and generate a time-stamped report in the `/tmp/` directory:
 ```
 
 ## Notes
+
+### Introduction to the project
+I was writing this script schell to automatically backup a VPS (with Debian Linux OS)
+hosted by [OVH](https://ovh.com).
+I already used Duplicity a few years ago,
+to backup a linux computer to external hard disk or other computer.
+The challenge now is to back up a VPS to another cloud solution.
+the constraint is to use reliable and economical tools.
+My choice is My choice is the S3 Object Storage service from the Swiss company
+[Exoscale](https://www.exoscale.com).
+
+
 
 ---
 
