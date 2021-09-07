@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 
 ### Changed
+- Configuration file (.duplicity.conf) moved to a directory (.duplicity) and split for easy maintenance.
 
 ### Deprecated
 
