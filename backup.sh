@@ -18,8 +18,8 @@
 
 
 
-#. /root/.duplicity/backup-auth.conf
-#. /root/.duplicity/duplicity.conf
+. /root/.duplicity/backup-auth.conf
+. /root/.duplicity/duplicity.conf
 
 
 
