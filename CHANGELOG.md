@@ -22,6 +22,7 @@ If it is not specified (or ignored), Duplicity runs incremental backup,
 but forces a full backup if no full backup already exists.)
 
 ### Security
+- 
 
 ## [1.0.2] - 2021-09-06
 ### Fixed
