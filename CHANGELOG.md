@@ -9,13 +9,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+### Deprecated
+
+### Removed
+
 ### Fixed
 - MAJOR . Fixed the wrong order of the Duplicity parameters.
 ("full | incr" parameter must be in first position instead it is ignored.
 If it is not specified (or ignored), Duplicity runs incremental backup,
 but forces a full backup if no full backup already exists.)
 
-### Removed
+### Security
 
 ## [1.0.2] - 2021-09-06
 ### Fixed
