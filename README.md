@@ -11,6 +11,22 @@ license: GNU General Public License v3.0
 * [Duplicity_ on Debian Wiki](https://wiki.debian.org/Duplicity)
 * gpg(1) man page
 
+## Operating
+
+### Manually backup
+Run the script in a SSH cession:
+``` sh
+/root/bin/backup.sh
+```
+
+### Sheduled backup
+With the command `crontab -e`, add the line below to schedule the backup every Monday at 01:00 am
+and generate a time-stamped report in the `tmp` directory:
+``` sh
+0 1 * * 1     /root/bin/backup.sh > /tmp/backup-report-`date +%y%m%d`.txt
+```
+
+## Notes
 
 ---
 
