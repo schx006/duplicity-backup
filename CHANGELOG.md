@@ -30,7 +30,7 @@ but forces a full backup if no full backup already exists.)
 - MAJOR . Fix bug in the shebang
 (an unsupported encoding argument prevents the script from running)
 
-## [1.0] - 2021-09-05
+## [1.0.0] - 2021-09-05
 
 first release
 
