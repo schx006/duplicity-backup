@@ -16,7 +16,6 @@ pip install boto
 Generate a pair of GnuPG keys to encrypt and sign the backups:
 ``` sh
 gpg --gen-key
-[...]
 ```
 
 Load the script and configuration files on the VPS:
