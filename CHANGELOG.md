@@ -26,10 +26,10 @@ but forces a full backup if no full backup already exists.)
 - PATCH . Fixed small errors and added clarifications to the README.md file
 
 ## [1.0.1] - 2021-09-05
-### Fixed
 
 Semantic Versioning is not respected for this release.
 
+### Fixed
 - MAJOR . Fix bug in the shebang
 (an unsupported encoding argument prevents the script from running)
 
