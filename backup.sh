@@ -1,21 +1,24 @@
 #!/usr/bin/env bash
 
 # Duplicity backup script-shell
-# Version 1.1
+# Version 2.0.0
 # "Full backup" only
 # File:    /root/bin/backup.sh
 # Author:  schx006@xs-net.io
 # license: GNU General Public License v3.0
 
-# Edit '/root/.duplicity.conf' file to configure
+# Edit '/root/.duplicity/backup-auth.conf' file
+#	to set up S3 Authentification & GnuPG configuration
+# Edit '/root/.duplicity/backup-dirlist.conf' file
+#	to set up the list of directories to backup
+
 
 # uncomment for debug
 #set -x
 
 
 
-. /root/.duplicity.conf
-#. /root/.duplicity/backup.conf
+#. /root/.duplicity/backup-auth.conf
 #. /root/.duplicity/duplicity.conf
 
 
