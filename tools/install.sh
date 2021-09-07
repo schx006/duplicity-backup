@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
-# Install "/root/bin/backup.sh" & "/root/.duplicity.conf" files
 
 # Tool for Duplicity backup
 # Version 1.0
-# File:    /root/bin/extract-auth.sh
+# File:    /path/to/GitHubRepository/tools/install.sh
 # Author:  schx006@xs-net.io
 # license: GNU General Public License v3.0
+
+# Install files:
+#			/root/bin/backup.sh
+#			/root/.duplicity.conf
 
 
 files='duplicity.conf backup.sh'
