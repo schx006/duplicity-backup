@@ -1,7 +1,7 @@
 # Secure encrypted backup of a VPS¹ on a S3 Object Storage server using _Duplicity_
 
 Duplicity backup script-shell   
-Version: 1.1   
+Version: 2.0.0   
 Author:  [S.X.](schx006@xs-net.io)   
 license: GNU General Public License v3.0
 
