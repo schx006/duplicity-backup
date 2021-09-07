@@ -56,23 +56,38 @@ The script creates directories (if needed), it copies the required files and set
 
 ### Initial setup
 
-Edit `/root/.duplicity.conf` with _ad-hoc_ parameters…
-* S3 server name
-* S3 bucket name
-* IAM access key Id.
-* IAM secret key
-* GnuPG key signature or fingerprint (to identify wich to use)
-* GnuPG key passphrase (in clear text; if not present, the passphrase will be prompted, needed to schedule backup task)
-* set the list of directories to backup as required (Warning: do not try to backup `/proc` directory! Backup will crash.
-If needed, add the `--exclude /proc` argument in the duplicity command line…)
+1. Edit `/root/.duplicity/backup-auth.conf` with _ad-hoc_ parameters…
+    * S3 server name
+    * S3 bucket name
+    * IAM access key Id.
+    * IAM secret key
+    * GnuPG key signature or fingerprint (to identify wich to use)
+    * GnuPG key passphrase (in clear text; if not present, the passphrase will be prompted, needed to schedule backup task)
+2. Set the list of directories to backup in the `/root/.duplicity/backup-dirlist.conf` file.    
+(Warning: do not try to backup `/proc` directory! Backup will crash.
+If needed, add the `--exclude /proc` argument in the duplicity command line…)    
+The synthax for this file is:    
+    * lines beginning by a _hask_ '#' are comments;
+    * empty lines are allowed;
+    * directories use absolute path (beginning by a _slash_ '/');
+    * one or more directories per line;
+    * use only space, tab or newline characters to separate directory names;
+    * in theory, some _extended shell globbing patterns_ can be used (NOT TESTED).
+
 
 ### Extraction from existing _.duplicity.conf_ file
 
 ...
 
+``` sh
+head -n 21 /root/.duplicity.conf | tail -n 13 > /root/.duplicity/backup-auth.conf
+
+```
+Verify that your new `backup-auth.conf` file has right `-rw-------` (0600) permissions.
+
 ### By the end…
 
-Run the bachup task:
+Run the bachup:
 ``` sh
 /root/bin/backup.sh
 ```
