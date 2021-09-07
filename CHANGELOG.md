@@ -27,12 +27,15 @@ but forces a full backup if no full backup already exists.)
 
 ## [1.0.1] - 2021-09-05
 ### Fixed
+
+Semantic Versioning is not respected for this release.
+
 - MAJOR . Fix bug in the shebang
 (an unsupported encoding argument prevents the script from running)
 
 ## [1.0.0] - 2021-09-05
 
-first release
+first release — defective version
 
 ### Added
 - GnuPG signed and encrypted "full" backup of the directories of a VPS,
