@@ -18,6 +18,7 @@
 
 
 
+# import configuration variables
 . /root/.duplicity/backup-auth.conf
 . /root/.duplicity/duplicity.conf
 
@@ -27,6 +28,7 @@
 echo -n "---- Starting the \"Full backup\" of $HOSTNAME ---- "; date
 for i in $DIRS2BACKUP ; do
 	echo -e "\n==>   Backup of directory $i"
+	# see the 'duplicity.conf' file for the following lines
 	$DUP_EXEC $i $TARGET_URL$i
 #	$DUP_VERIF $TARGET_URL$i $i
 	$DUP_CLEANUP $TARGET_URL$i
