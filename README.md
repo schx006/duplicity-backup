@@ -47,6 +47,10 @@ My choice is the S3 Object Storage service from the Swiss company
 
 [to be continued] 
 
+### Deployment
+
+Besides the VPS, I use my script to backup several [Raspberry Pi](https://www.raspberrypi.org).
+
 ---
 
 ¹ VPS or other Linux computer. _Duplicity_ can also run on MacOS computer.   
