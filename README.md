@@ -13,7 +13,7 @@ license: GNU General Public License v3.0
 
 ## Operating
 
-### Manually backup
+### Manual backup
 Run the script in a SSH cession:
 ``` sh
 /root/bin/backup.sh
