@@ -32,7 +32,8 @@ and generate a date-stamped report in the `/tmp/` directory:
 I was writing this script schell to automatically backup a VPS (with Debian Linux OS)
 hosted by [OVH](https://ovh.com).
 I already used Duplicity a few years ago,
-to backup a linux computer to external hard disk or other computer.    
+to backup a linux computer to an other computer (on the same network)
+or external hard disks.    
 The challenge now is to back up a VPS to another cloud solution.    
 The constraint is to use reliable and economical tools.    
 My choice is the S3 Object Storage service from the Swiss company
