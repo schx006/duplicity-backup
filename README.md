@@ -11,6 +11,10 @@ license: GNU General Public License v3.0
 * [_Duplicity_ on Debian Wiki](https://wiki.debian.org/Duplicity)
 * gpg(1) man page
 
+## Installation
+
+See instructions in the file [INSTALL.md](https://github.com/schx006/duplicity-backup/blob/testing/INSTALL.md).
+
 ## Operating
 
 ### Manual backup
