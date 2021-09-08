@@ -20,10 +20,11 @@ pip install boto
 
 ```
 
-Generate a pair of GnuPG keys to encrypt and sign the backups:
+Generate a pair of GnuPG keys² to encrypt and sign the backups:    
 ``` sh
 gpg --gen-key
 ```
+
 
 Load the script and configuration files on the VPS:
 ``` sh
@@ -127,3 +128,4 @@ scp -P sshPort user@vpsName.domainName.tld:/root-vpsName.tgz /path/to/USB/Storag
 ---
 
 ¹ Users must modify the install command if they are using an OS distribution other than Debian Linux family.   
+² See gpg(1) man page for more information.
