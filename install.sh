@@ -19,6 +19,7 @@
 
 files='duplicity.conf backup-auth.conf backup-dirlist.conf backup.sh'
 
+
 umask 077
 
 
@@ -50,7 +51,7 @@ function secure-file-copy {
 
 
 
-# you MUST be root, ti install the Duplicity backup script.
+# you MUST be root, to run the Duplicity backup script.
 if [ $UID -ne 0 ] ; then
 	echo "WARNING: You have to be \"root\", or use \"sudo\", to run this script!"
 	exit 1
