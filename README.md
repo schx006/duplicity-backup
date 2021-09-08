@@ -21,7 +21,7 @@ Run the script in a SSH cession:
 
 ### Sheduled backup
 With the command `crontab -e`, add the line below to schedule the backup every Monday at 01:00 am
-and generate a time-stamped report in the `/tmp/` directory:
+and generate a date-stamped report in the `/tmp/` directory:
 ``` sh
 0 1 * * 1     /root/bin/backup.sh > /tmp/backup-report-`date +%y%m%d`.txt 2>&1
 ```
