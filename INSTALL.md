@@ -1,6 +1,12 @@
 # Installation HowTo
 
-### Preparing your machine
+Duplicity backup script-shell   
+Version: 2.0.0   
+Author:  Xavier Schoepfer   
+license: GNU General Public License v3.0
+
+
+## Preparing your machine
 
 As "root", run the commands¹ below:   
 ``` sh
