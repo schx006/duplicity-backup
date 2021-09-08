@@ -13,7 +13,7 @@ license: GNU General Public License v3.0
 
 ## Installation
 
-See instructions in the file [INSTALL.md](https://github.com/schx006/duplicity-backup/blob/testing/INSTALL.md).
+See instructions in the file [INSTALL.md](https://github.com/schx006/duplicity-backup/blob/main/INSTALL.md).
 
 ## Operating
 
