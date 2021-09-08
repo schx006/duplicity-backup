@@ -38,7 +38,9 @@ The constraint is to use reliable and economical tools.
 My choice is the S3 Object Storage service from the Swiss company
 [Exoscale](https://www.exoscale.com).
 
+### Strategic options
 
+[to be continued] 
 
 ---
 
