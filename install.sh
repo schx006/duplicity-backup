@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
+# Installation tool for Duplicity backup
 
-# Tool for Duplicity backup version 2.0.0
-# File:    /path/to/GitHubRepository/tools/install.sh
-# Author:  schx006@xs-net.io
+# Duplicity backup script-shell
+# Version 2.0.0
+# File:    /path/to/GitHubRepository/install.sh
+# Author:  Xavier Schoepfer
 # license: GNU General Public License v3.0
+
+
 
 # Install files:
 #			/root/bin/backup.sh
