@@ -5,6 +5,7 @@ Version: 2.0.0
 Author:  Xavier Schoepfer   
 license: GNU General Public License v3.0
 
+See [Change Log](https://github.com/schx006/duplicity-backup/blob/main/CHANGELOG.md).
 
 ## Preparing your machine
 
