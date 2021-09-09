@@ -4,12 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased] - 2021-09-08
+## [Unreleased] - 2021-09-09
+
+will be version 2.
+
 ### Added
 
 ### Changed
 - Configuration file (.duplicity.conf) moved to a directory (.duplicity/)
-and split for easy maintenance.
+and split for easy maintenance.    
+New configuration files are:
+     > .duplicity/duplicity.conf    
+     > .duplicity/backup-auth.conf    
+     > .duplicity/backup-dirlist.conf    
 
 ### Deprecated
 
