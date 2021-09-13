@@ -13,7 +13,7 @@ As "root", run the commands¹ below:
 ``` sh
 apt-get update
 apt-get upgrade
-apt-get install git python-pip gpg duplicity
+apt-get install git python-pip gpg keychain duplicity
 
 # Module used by duplicity for S3 Object Storage connexion
 pip install boto
