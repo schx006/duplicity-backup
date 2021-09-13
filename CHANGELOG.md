@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased] - 2021-09-09
 
-will be version 2.
+**Will be version 2.**
 
 ### Added
 - 
@@ -46,16 +46,16 @@ but forces a full backup if no full backup already exists.)
 
 ## [1.0.1] - 2021-09-05
 
-Semantic Versioning is not respected for this release.
+**Semantic versioning is not respected for this release.**
 
 ### Fixed
-- MAJOR . Fix bug in the shebang
+- MAJOR . Fixed bug in the script shebang
 (an unsupported encoding argument prevents the script from running).
 
 
 ## [1.0.0] - 2021-09-05
 
-first release — defective version
+**First release — Defective version**
 
 ### Added
 - GnuPG signed and encrypted "full" backup of the directories of a VPS,
