@@ -18,12 +18,14 @@ See instructions in the file [INSTALL.md](https://github.com/schx006/duplicity-b
 ## Operating
 
 ### Manual backup
+
 Run the script in a SSH cession:
 ``` sh
 /root/bin/backup.sh
 ```
 
 ### Sheduled backup
+
 With the command `crontab -e`, add the line below to schedule the backup every Monday at 01:00 am
 and generate a date-stamped report in the `/tmp/` directory:
 ``` sh
@@ -33,6 +35,12 @@ and generate a date-stamped report in the `/tmp/` directory:
 ## Notes
 
 ### Introduction to the project
+
+For the first version, I was directly inspired by the examples given in the Duplicity 
+[documentations](#docs) and the David Mytton's post [Secure encrypted backup using duplicity for 
+Linux and Mac](https://blog.serverdensity.com/secure-encrypted-backup-using-duplicity-for-linux-and-mac/)
+on his blog, [server density](https://www.serverdensity.com).
+
 I was writing this script schell to automatically backup a VPS (with Debian Linux OS)
 hosted by [OVH](https://ovh.com).
 I already used Duplicity a few years ago,
