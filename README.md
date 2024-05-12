@@ -2,7 +2,7 @@
 
 Duplicity backup script-shell   
 Version: 1.0   
-Author:  schx006@xs-net.io   
+Author:  Xavier Schoepfer   
 license: GNU General Public License v3.0
 
 ### Docs
