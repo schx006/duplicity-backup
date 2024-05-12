@@ -4,7 +4,7 @@
 # Version 1.0
 # "Full backup" only
 # File:    /root/bin/backup.sh
-# Author:  schx006@xs-net.io
+# Author:  Xavier Schoepfer
 # license: GNU General Public License v3.0
 
 # Edit '/root/.duplicity.conf' file to configure
