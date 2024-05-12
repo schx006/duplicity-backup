@@ -1,3 +1,6 @@
+v1.1.0 (2024-05-12)
+ * Move configuration file from "/root/.duplicity.conf" to "/root/.config/duplicity.conf".
+
 v1.0.2 (2021-09-06)
  * Fixed small errors and added clarifications to the README.md file
 
