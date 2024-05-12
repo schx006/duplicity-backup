@@ -75,7 +75,6 @@ scp -P sshPort user@vpsName.domainName.tld:/root-vpsName.tgz /path/to/USB/Storag
 ```
 … then, keep the USB storage device in a secure place. Remove the `/root-*.tgz` file on VPS.
 
----
 
 [^1]: VPS or other Linux computer. _Duplicity_ can also run on MacOS computer.   
 [^2]: Users must modify the install command if they are using an OS distribution other than Debian Linux family.   
