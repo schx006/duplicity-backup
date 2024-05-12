@@ -14,7 +14,7 @@
 
 
 
-. /root/.duplicity.conf
+. /root/.config/duplicity.conf
 
 
 
