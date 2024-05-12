@@ -1,0 +1,5 @@
+# Mac OS Finder
+.DS_Store
+
+# Python exec env
+__pycache__
