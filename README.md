@@ -1,4 +1,4 @@
-# Secure encrypted backup of a VPS¹ on a S3 Object Storage server using _Duplicity_
+# Secure encrypted backup of a VPS[^1] on a S3 Object Storage server using _Duplicity_
 
 Duplicity backup script-shell   
 Version: 1.0   
@@ -15,7 +15,7 @@ license: GNU General Public License v3.0
 
 If needed, create `/root/bin` directory with `drwx------` permissions.   
 Load `backup.sh` and `.duplicity.conf` files on VPS.
-As 'root', run the commands² below:   
+As 'root', run the commands[^2] below:   
 ``` sh
 apt-get update
 apt-get upgrade
@@ -77,5 +77,5 @@ scp -P sshPort user@vpsName.domainName.tld:/root-vpsName.tgz /path/to/USB/Storag
 
 ---
 
-¹ VPS or other Linux computer. _Duplicity_ can also run on MacOS computer.   
-² Users must modify the install command if they are using an OS distribution other than Debian Linux family.   
+[^1]: VPS or other Linux computer. _Duplicity_ can also run on MacOS computer.   
+[^2]: Users must modify the install command if they are using an OS distribution other than Debian Linux family.   
